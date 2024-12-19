@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CZ:wght@100..400&display=swap');
+
+body {
+  margin: 0;
+}
+
+
+#section-1 {
+  position: relative;
+  background-color: aquamarine;
+  background-image: url('../img/camel.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+#section-2 {
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(89, 51, 1); 
+  height: 100vh;
+  display: none;
+  margin: 0;
+}
+
+#section-3 {
+  position: relative;
+  background-color: rgb(187, 137, 76);
+  height: 100vh;
+  display: none;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+#section-4{
+position: relative;
+background-color: rgb(89, 51, 1);
+display: none;
+height: 100vh;
+overflow: hidden;
+}
+
+#section-5{
+  position: relative;
+  background-color: rgb(187, 137, 76);
+  display: none;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#section-6{
+  background-color: rgb(89, 51, 1);
+  height: 100vh;
+  display: none;
+  overflow: hidden;
+  position: relative;
+}
+
+#section-7{
+  background-color: rgb(187, 137, 76);
+  height: 100vh;
+  display: none;
+  overflow: hidden;
+  position: relative;
+}
+
+#section-8{
+  background-color: rgb(89, 51, 1);
+  height: 100vh;
+  display: none;
+  overflow: hidden ;
+  position: relative;
+  font-family: "Playwrite CZ";
+}
+
+.trims{
+  color: white;
+  margin-left: 580px;
+  margin-top: 300px;
+}
+
+.pos-tl {
+  position: absolute;
+  top: -300px;
+  left: -300px;
+}
+
+.pos-tr {
+  position: absolute;
+  top: -300px;
+  right: -300px;
+}
+
+.pos-bl {
+  position: absolute;
+  bottom: -300px;
+  left: -300px;
+}
+
+.pos-br {
+  position: absolute;
+  bottom: -300px;
+  right: -300px;
+}
+
+.content {
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  padding-top: 25vh;
+}
+
+#audio-box {
+  display: none;
+}
+
+#music-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: burlywood;
+  border-radius: 100%;
+  padding: 10px;
+  z-index: 2;
+}
+
+#music-button img {
+  width: 50px;
+  height: 50px;
+  z-index: 2;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+  }
+}
+
+.gambar-container img {
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  margin: 10px;
+  margin-top: 90px;
+  margin-left: 70px;
+  border: 10px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+
+.quotes {
+  /* display: inline-block; */
+  position: absolute;
+  background-image: url('..img/background_quotes.jpg');
+  right: 20%;
+  top: 50%;
+  font-family: "Playwrite CZ";
+  padding: 10px;
+  border-radius: 5px;
+  transform: translateY(-50%);
+  background-color: burlywood;
+  width: 30%;
+}
+
+  .profile {
+    width: 30px;
+    height: 50px;
+  }
+
+.profile img {
+  width: 100px;
+}
+
+.profileh2 {
+  margin: 0;
+}
+
+.gambar-container-2 img{
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    margin-left: 600px;
+    background-color: rgb(170, 97, 2);
+    border-radius: 50px;
+}
+
+.profil_pria{
+  display: inline-block`;
+  width: 200px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: rgb(170, 97, 2);
+  margin-left: 460px;
+  padding: 10px;
+  font-family: "Playwrite CZ";
+  overflow: hidden;
+}
+
+.profil_wanita{
+  display: inline-block;
+  width: 200px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: rgb(170, 97, 2);
+  margin-left: 760px;
+  margin-top: 235px;
+  padding: 10px;
+  font-family: "Playwrite CZ";
+  overflow: hidden;
+}
+
+.kia{
+  position: absolute;
+  top: -300px;
+  left: -300px;
+}
+
+.kaa{
+  position: absolute;
+  top: -300px;
+  right: -300px;
+}
+
+.kib{
+  position: absolute;
+  bottom: -300px;
+  left: -300px;
+}
+
+.kab{
+  position: absolute;
+  bottom: -300px;
+  right: -300px;
+}
+
+.kia1{
+  position: absolute;
+  top: -300px;
+  left: -300px;
+}
+
+.kaa1{
+  position: absolute;
+  top: -300px;
+  right: -300px;
+}
+
+.kib1{
+  position: absolute;
+  bottom: -300px;
+  left: -300px;
+}
+
+.kab1{
+  position: absolute;
+  bottom: -300px;
+  right: -300px;
+}
+
+.judul{
+  font-family: "Playwrite CZ";
+}
+
+.subjudul{
+  font-family: "Playwrite CZ";
+}
+
+.button{
+  padding: 15px;
+  background-color: bisque;
+  border-radius: 50px;
+  font-family: "Playwrite CZ";
+}
+
+.acarah1{
+  padding: 10px;
+  margin-left: 650px;
+  font-family: "Playwrite CZ";
+}
+
+.label{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "Playwrite CZ";
+  background-color: bisque;
+  width: 350px;
+  height: 500px;
+  border-radius: 5px;
+  left: 550px;
+  padding: 10px;
+}
+
+.lokasi{
+  background-color: bisque;
+  position: relative;
+  display: inline-block;
+  margin-left: 460px;
+  font-family: "Playwrite CZ";
+  width: 200px;
+  height: 350px;  
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.rundown{
+  background-color: bisque;
+  position: relative;
+  display: inline-block;
+  margin-left: 760px;
+  bottom: 370px;
+  font-family: "Playwrite CZ";
+  width: 200px;
+  height: 350px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.storyhead{
+  margin-left: 650px;
+  font-family: "Playwrite CZ";
+}
+
+.story{
+  background-color: bisque;
+  display: inline-block;
+  width: 900px;
+  height: 300px;
+  padding: 10px;
+  margin-left: 300px;
+  font-family: "Playwrite CZ";
+  border-radius: 5px;
+}
+
+.kia2{
+  position: absolute;
+  top: -300px;
+  left: -300px;
+}
+
+.kaa2{
+  position: absolute;
+  top: -300px;
+  right: -300px;
+}
+
+.kib2{
+  position: absolute;
+  bottom: -300px;
+  left: -300px;
+}
+
+.kab2{
+  position: absolute;
+  bottom: -300px;
+  right: -300px;
+}
+
+.judul7{
+  margin-left: 650px;
+  font-family: "Playwrite CZ";
+}
+
+.table{
+  margin-left: 440px;
+  font-family: "Playwrite CZ";
+}
+hover   
+
